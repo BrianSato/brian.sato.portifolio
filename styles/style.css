@@ -169,7 +169,8 @@ textarea{
         padding: 4%;
   }
     .cabecalho__menu{
-        justify-content: space-between;
+        display:flex;
+        justify-content: center;
         gap: 30px;
   }
     .cabecalho__menu__link{
