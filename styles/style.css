@@ -1,5 +1,7 @@
- @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+/* importando fonte do googles fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+/* criando variáveis para as cores e fontes */
  :root {
     --cor-primaria:#000000;
     --cor-secundaria:#F6F6F6;
@@ -10,6 +12,7 @@
     --fonte-secundaria:"Montserrat", sans-serif;
    }
 
+/* padronizando margem e espaçamento da página */
 * {
     margin: 0px;
     padding: 0px;
@@ -31,6 +34,7 @@ span {
         padding: 10px;
   }
 
+/* Área de cabeçalho das páginas */
 .cabecalho{
     justify-content: space-between;
     padding:2% 0% 0% 12%;
@@ -53,6 +57,7 @@ span {
     color:var(--cor-secundaria);
   }
 
+/* Área de apresentação das páginas */
 .apresentacao{
     padding:5% 12%;
     display: flex;
@@ -128,6 +133,8 @@ span {
 width: fit-content;
 border-radius: 10px;
   }
+
+/* Área do formulário da página */
 .formulario{
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
@@ -144,6 +151,7 @@ textarea{
     height: 150px;
   }
 
+/* Área do rodapé da página*/
 .rodape {
     width: 100%;
     font-family: var(--fonte-secundaria);
@@ -155,6 +163,7 @@ textarea{
     padding: 10px;
   }
 
+/* Configuração para uma página responsiva em vários tamanhos de telas */
 @media (max-width:1024px) {
     .cabecalho{
         padding: 4%;
