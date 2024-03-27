@@ -169,8 +169,8 @@ textarea{
         padding: 4%;
   }
     .cabecalho__menu{
-        justify-content: center;
-        gap: 20px;
+        display:flex;
+        gap: 30px;
   }
     .cabecalho__menu__link{
         color:var(--cor-terciaria);
