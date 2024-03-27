@@ -37,7 +37,7 @@ span {
 /* Área de cabeçalho das páginas */
 .cabecalho{
     justify-content: space-between;
-    padding:2% 0% 0% 12%;
+    padding:2% 12% 0% 12%;
   }
 
 .cabecalho__menu{
@@ -166,12 +166,12 @@ textarea{
 /* Configuração para uma página responsiva em vários tamanhos de telas */
 @media (max-width:1024px) {
     .cabecalho{
-        padding: 4%;
+        padding: 3%;
   }
     .cabecalho__menu{
         display:flex;
-        justify-content: center;
-        gap: 30px;
+        justify-content: space-between;
+        gap: 20px;
   }
     .cabecalho__menu__link{
         color:var(--cor-terciaria);
