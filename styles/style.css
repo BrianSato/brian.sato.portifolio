@@ -170,6 +170,7 @@ textarea{
   }
     .cabecalho__menu{
         display:flex;
+        justify-content: space-between;
         gap: 30px;
   }
     .cabecalho__menu__link{
